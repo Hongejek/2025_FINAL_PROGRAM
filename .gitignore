@@ -43,3 +43,5 @@ Thumbs.db
 data/comment/*.csv
 data/video/*.csv
 !*.csv
+
+数据样本/评论区信息/游戏/*.csv
