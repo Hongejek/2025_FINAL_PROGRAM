@@ -1,0 +1,45 @@
+# Python虚拟环境
+venv/
+venv*/
+.venv/
+env/
+ENV/
+
+# Cookie文件
+bili_cookie.txt
+
+# data文件夹下的子文件夹内容
+data/comment/
+data/video/
+
+# chart文件夹下的image子文件夹中的图片
+chart/image/*.png
+chart/image/*.jpg
+chart/image/*.jpeg
+chart/image/*.gif
+
+# Python生成的字节码和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+*.tmp
+*.temp
+
+# 特定数据文件
+data/comment/*.csv
+data/video/*.csv
+!*.csv

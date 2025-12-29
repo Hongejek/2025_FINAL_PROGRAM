@@ -1,0 +1,23 @@
+# 自动检测文本文件并转换换行符
+* text=auto
+
+# 明确指定文本文件类型
+*.py text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.xml text eol=lf
+
+# 二进制文件类型（不进行换行符转换）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
